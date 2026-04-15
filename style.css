@@ -6,6 +6,10 @@ p {
 
 .card {
   border: 2px solid #f82819;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover {
+  box-shadow: 0 0 25px rgba(248, 40, 25, 0.7);
 }
 
 img {
