@@ -26,7 +26,8 @@ img:hover {
   transform: scale(1.05);
 }
 
-h2 {
+h2,
+h3 {
   margin-top: 25px;
   color: #ff0202;
 }
