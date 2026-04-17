@@ -42,13 +42,24 @@ footer {
   border-top: 1px solid #1e293b;
 }
 
-.saiba-mais a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  margin: 5px;
-  display: inline-block;
+.saiba-mais {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
 }
 
-.saiba-mais p {
-  margin: 0;
+.botao {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #ff0202;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #ff0202;
+  color: white;
 }
