@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: radial-gradient(circle, #3f0000 0%, #110101 70%, #000000 100%);
+  color: rgb(241, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+.card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+p {
+  color: #fffdfd;
+}
+
+.voltar a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff0202;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.voltar :hover {
+  background-color: white;
+  color: #ff0202;
+}
+
+.card {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid #f82819;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(248, 40, 25, 0.7);
+}
